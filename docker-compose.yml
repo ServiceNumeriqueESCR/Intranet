@@ -38,8 +38,6 @@ name: "exo-community"
 services:
   web:
     image: nginx:1.28-alpine
-    expose:
-      - "8089"
     ports:
       - "8089:80"
     volumes:
