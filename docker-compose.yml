@@ -53,7 +53,7 @@ services:
     image: exoplatform/exo-community:7.1.1
     environment:
       EXO_PROXY_VHOST: ${EXO_PROXY_VHOST:-intranet.escr74.com}
-      EXO_PROXY_PORT: 80
+      EXO_PROXY_PORT: 8089
       EXO_DB_HOST: mysql
       EXO_PROXY_SSL: "false"
       EXO_DB_TYPE: mysql
