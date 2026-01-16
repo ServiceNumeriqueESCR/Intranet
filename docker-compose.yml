@@ -79,7 +79,7 @@ services:
       - es
       - onlyoffice
   mysql:
-    image: mysql:8.4.7
+    image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: my-super-secret-pw
       MYSQL_DATABASE: exo
